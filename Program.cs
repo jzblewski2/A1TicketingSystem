@@ -38,7 +38,7 @@
                     char response;
                     do
                     {
-                        Console.WriteLine("enter ticket? (Y/N) ");
+                        Console.WriteLine("enter new ticket? (Y/N) ");
                         response = Convert.ToChar(Console.ReadLine().ToUpper());
                         if (response == 'N')
                             break;
